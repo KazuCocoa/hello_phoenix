@@ -6,3 +6,11 @@ To start your new Phoenix application:
 2. Start Phoenix endpoint with `mix phoenix.server`
 
 Now you can visit `localhost:4000` from your browser.
+
+# Note
+
+Before you do migrates, you need to create postgres rols like the bellow.
+
+```
+postgres=# create role phoenix_psql  with createdb login password 'postgres';
+```
