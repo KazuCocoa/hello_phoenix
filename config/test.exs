@@ -12,7 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :hello_phoenix, HelloPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
+  username: "phoenix_psql",
   password: "postgres",
   database: "hello_phoenix_test",
   size: 1 # Use a single connection for transactional tests
