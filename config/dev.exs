@@ -29,7 +29,7 @@ config :logger, :console, format: "[$level] $message\n"
 # Configure your database
 config :hello_phoenix, HelloPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "phoenix_psql",
-  password: "postgres",
-  database: "hello_phoenix_dev",
+  username: "qmfcjctgpgwgbz", # "phoenix_psql",
+  password: System.get_env("DB_PASS"), # "postgres",
+  database: "dbjai0nb1bi8db", # "hello_phoenix_dev",
   size: 10 # The amount of database connections in the pool
